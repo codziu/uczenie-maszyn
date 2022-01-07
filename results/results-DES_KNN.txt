@@ -1,0 +1,840 @@
+Usrednionie wyniki dla metryki Recall
+                        none    ROS    SMOTE    ADASYN
+--------------------  ------  -----  -------  --------
+ecoli4                 0.650  0.800    0.800     0.850
+ecoli-0-1-4-6_vs_5     0.675  0.725    0.825     0.825
+glass2                 0.033  0.333    0.508     0.392
+glass5                 0.600  0.850    0.750     0.750
+glass6                 0.827  0.877    0.860     0.893
+glass-0-1-6_vs_2       0.025  0.358    0.358     0.375
+glass-0-1-6_vs_5       0.050  1.000    1.000     1.000
+new-thyroid1           0.843  0.900    0.914     0.914
+newthyroid2            0.843  0.900    0.943     0.929
+yeast4                 0.242  0.374    0.489     0.433
+yeast6                 0.400  0.614    0.657     0.657
+yeast-1-2-8-9_vs_7     0.300  0.233    0.317     0.250
+yeast-2_vs_4           0.668  0.775    0.805     0.766
+yeast-1_vs_7           0.317  0.217    0.517     0.550
+pima                   0.584  0.664    0.647     0.666
+segment0               0.963  0.983    0.977     0.985
+vehicle0               0.870  0.932    0.932     0.930
+page-blocks-1-3_vs_4   0.893  1.000    1.000     1.000
+vowel0                 0.883  0.944    0.967     0.983
+wisconsin              0.933  0.948    0.935     0.952
+
+
+Statystycznie znaczaco lepszy od: (ecoli4 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (ecoli-0-1-4-6_vs_5 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass2 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (glass5 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass6 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_2 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_5 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (new-thyroid1 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (newthyroid2 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast4 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (yeast6 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (yeast-1-2-8-9_vs_7 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast-2_vs_4 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:
+3. SMOTE:1, 
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast-1_vs_7 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:
+3. SMOTE:2, 
+4. ADASYN:1, 2, 
+
+
+Statystycznie znaczaco lepszy od: (pima dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (segment0 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (vehicle0 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (page-blocks-1-3_vs_4 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (vowel0 dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 2, 
+
+
+Statystycznie znaczaco lepszy od: (wisconsin dla DES_KNN dla metryki Recall)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+
+
+
+Usrednionie wyniki dla metryki Specificity
+                        none    ROS    SMOTE    ADASYN
+--------------------  ------  -----  -------  --------
+ecoli4                 0.992  0.983    0.979     0.978
+ecoli-0-1-4-6_vs_5     0.981  0.962    0.954     0.967
+glass2                 0.969  0.937    0.909     0.904
+glass5                 0.990  0.976    0.976     0.976
+glass6                 0.965  0.951    0.957     0.943
+glass-0-1-6_vs_2       0.971  0.920    0.900     0.906
+glass-0-1-6_vs_5       0.994  0.980    0.980     0.980
+new-thyroid1           0.978  0.981    0.983     0.983
+newthyroid2            0.981  0.981    0.978     0.981
+yeast4                 0.984  0.964    0.941     0.941
+yeast6                 0.990  0.979    0.963     0.956
+yeast-1-2-8-9_vs_7     0.987  0.957    0.918     0.909
+yeast-2_vs_4           0.966  0.960    0.950     0.948
+yeast-1_vs_7           0.972  0.908    0.879     0.859
+pima                   0.803  0.739    0.742     0.704
+segment0               0.997  0.995    0.993     0.995
+vehicle0               0.961  0.949    0.944     0.944
+page-blocks-1-3_vs_4   0.998  0.996    0.996     0.996
+vowel0                 0.989  0.977    0.982     0.982
+wisconsin              0.968  0.968    0.966     0.961
+
+
+Statystycznie znaczaco lepszy od: (ecoli4 dla DES_KNN dla metryki Specificity)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (ecoli-0-1-4-6_vs_5 dla DES_KNN dla metryki Specificity)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass2 dla DES_KNN dla metryki Specificity)
+1. none:3, 4, 
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass5 dla DES_KNN dla metryki Specificity)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass6 dla DES_KNN dla metryki Specificity)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_2 dla DES_KNN dla metryki Specificity)
+1. none:2, 3, 4, 
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_5 dla DES_KNN dla metryki Specificity)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (new-thyroid1 dla DES_KNN dla metryki Specificity)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (newthyroid2 dla DES_KNN dla metryki Specificity)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast4 dla DES_KNN dla metryki Specificity)
+1. none:2, 3, 4, 
+2. ROS:3, 4, 
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast6 dla DES_KNN dla metryki Specificity)
+1. none:2, 3, 4, 
+2. ROS:3, 4, 
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast-1-2-8-9_vs_7 dla DES_KNN dla metryki Specificity)
+1. none:2, 3, 4, 
+2. ROS:3, 4, 
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast-2_vs_4 dla DES_KNN dla metryki Specificity)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast-1_vs_7 dla DES_KNN dla metryki Specificity)
+1. none:2, 3, 4, 
+2. ROS:4, 
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (pima dla DES_KNN dla metryki Specificity)
+1. none:2, 3, 4, 
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (segment0 dla DES_KNN dla metryki Specificity)
+1. none:3, 
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (vehicle0 dla DES_KNN dla metryki Specificity)
+1. none:4, 
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (page-blocks-1-3_vs_4 dla DES_KNN dla metryki Specificity)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (vowel0 dla DES_KNN dla metryki Specificity)
+1. none:2, 
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (wisconsin dla DES_KNN dla metryki Specificity)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+
+
+
+Usrednionie wyniki dla metryki F1
+                        none    ROS    SMOTE    ADASYN
+--------------------  ------  -----  -------  --------
+ecoli4                 0.717  0.766    0.745     0.772
+ecoli-0-1-4-6_vs_5     0.695  0.658    0.693     0.737
+glass2                 0.050  0.279    0.387     0.286
+glass5                 0.630  0.730    0.667     0.637
+glass6                 0.803  0.806    0.801     0.797
+glass-0-1-6_vs_2       0.033  0.305    0.294     0.327
+glass-0-1-6_vs_5       0.067  0.860    0.860     0.860
+new-thyroid1           0.860  0.899    0.915     0.913
+newthyroid2            0.870  0.901    0.918     0.916
+yeast4                 0.273  0.312    0.311     0.284
+yeast6                 0.432  0.500    0.422     0.377
+yeast-1-2-8-9_vs_7     0.343  0.190    0.163     0.126
+yeast-2_vs_4           0.681  0.727    0.717     0.686
+yeast-1_vs_7           0.348  0.150    0.312     0.314
+pima                   0.596  0.617    0.607     0.600
+segment0               0.973  0.976    0.969     0.977
+vehicle0               0.870  0.889    0.883     0.880
+page-blocks-1-3_vs_4   0.925  0.968    0.968     0.972
+vowel0                 0.888  0.870    0.903     0.910
+wisconsin              0.936  0.944    0.936     0.940
+
+
+Statystycznie znaczaco lepszy od: (ecoli4 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (ecoli-0-1-4-6_vs_5 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass2 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (glass5 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass6 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_2 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_5 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (new-thyroid1 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (newthyroid2 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast4 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast6 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast-1-2-8-9_vs_7 dla DES_KNN dla metryki F1)
+1. none:2, 3, 4, 
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast-2_vs_4 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast-1_vs_7 dla DES_KNN dla metryki F1)
+1. none:2, 
+2. ROS:
+3. SMOTE:2, 
+4. ADASYN:2, 
+
+
+Statystycznie znaczaco lepszy od: (pima dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (segment0 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (vehicle0 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (page-blocks-1-3_vs_4 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (vowel0 dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (wisconsin dla DES_KNN dla metryki F1)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+
+
+
+Usrednionie wyniki dla metryki G-mean
+                        none    ROS    SMOTE    ADASYN
+--------------------  ------  -----  -------  --------
+ecoli4                 0.789  0.875    0.873     0.904
+ecoli-0-1-4-6_vs_5     0.801  0.828    0.877     0.883
+glass2                 0.058  0.449    0.628     0.512
+glass5                 0.720  0.901    0.804     0.802
+glass6                 0.886  0.911    0.903     0.915
+glass-0-1-6_vs_2       0.049  0.502    0.500     0.545
+glass-0-1-6_vs_5       0.071  0.990    0.990     0.990
+new-thyroid1           0.906  0.937    0.947     0.946
+newthyroid2            0.905  0.935    0.959     0.953
+yeast4                 0.473  0.588    0.674     0.634
+yeast6                 0.617  0.764    0.787     0.782
+yeast-1-2-8-9_vs_7     0.504  0.458    0.502     0.416
+yeast-2_vs_4           0.800  0.861    0.873     0.850
+yeast-1_vs_7           0.505  0.378    0.657     0.681
+pima                   0.682  0.699    0.691     0.683
+segment0               0.980  0.989    0.985     0.990
+vehicle0               0.913  0.940    0.938     0.936
+page-blocks-1-3_vs_4   0.943  0.998    0.998     0.998
+vowel0                 0.934  0.960    0.974     0.982
+wisconsin              0.950  0.958    0.950     0.956
+
+
+Statystycznie znaczaco lepszy od: (ecoli4 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (ecoli-0-1-4-6_vs_5 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass2 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (glass5 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass6 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_2 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_5 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (new-thyroid1 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (newthyroid2 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast4 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (yeast6 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (yeast-1-2-8-9_vs_7 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast-2_vs_4 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:
+3. SMOTE:1, 
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast-1_vs_7 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:
+3. SMOTE:2, 
+4. ADASYN:1, 2, 
+
+
+Statystycznie znaczaco lepszy od: (pima dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (segment0 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (vehicle0 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (page-blocks-1-3_vs_4 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (vowel0 dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:
+3. SMOTE:1, 
+4. ADASYN:1, 2, 
+
+
+Statystycznie znaczaco lepszy od: (wisconsin dla DES_KNN dla metryki G-mean)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+
+
+
+Usrednionie wyniki dla metryki BAC
+                        none    ROS    SMOTE    ADASYN
+--------------------  ------  -----  -------  --------
+ecoli4                 0.821  0.891    0.890     0.914
+ecoli-0-1-4-6_vs_5     0.828  0.843    0.889     0.896
+glass2                 0.501  0.635    0.708     0.648
+glass5                 0.795  0.913    0.863     0.863
+glass6                 0.896  0.914    0.908     0.918
+glass-0-1-6_vs_2       0.498  0.639    0.629     0.640
+glass-0-1-6_vs_5       0.522  0.990    0.990     0.990
+new-thyroid1           0.910  0.940    0.949     0.949
+newthyroid2            0.912  0.940    0.960     0.955
+yeast4                 0.613  0.669    0.715     0.687
+yeast6                 0.695  0.797    0.810     0.806
+yeast-1-2-8-9_vs_7     0.643  0.595    0.617     0.580
+yeast-2_vs_4           0.817  0.868    0.878     0.857
+yeast-1_vs_7           0.644  0.562    0.698     0.704
+pima                   0.693  0.702    0.695     0.685
+segment0               0.980  0.989    0.985     0.990
+vehicle0               0.916  0.941    0.938     0.937
+page-blocks-1-3_vs_4   0.946  0.998    0.998     0.998
+vowel0                 0.936  0.961    0.974     0.982
+wisconsin              0.951  0.958    0.951     0.956
+
+
+Statystycznie znaczaco lepszy od: (ecoli4 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (ecoli-0-1-4-6_vs_5 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass2 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (glass5 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass6 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_2 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_5 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (new-thyroid1 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (newthyroid2 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast4 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (yeast6 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (yeast-1-2-8-9_vs_7 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast-2_vs_4 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:
+3. SMOTE:1, 
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (yeast-1_vs_7 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:
+3. SMOTE:2, 
+4. ADASYN:2, 
+
+
+Statystycznie znaczaco lepszy od: (pima dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (segment0 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (vehicle0 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+Statystycznie znaczaco lepszy od: (page-blocks-1-3_vs_4 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:1, 
+3. SMOTE:1, 
+4. ADASYN:1, 
+
+
+Statystycznie znaczaco lepszy od: (vowel0 dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:
+3. SMOTE:1, 
+4. ADASYN:1, 2, 
+
+
+Statystycznie znaczaco lepszy od: (wisconsin dla DES_KNN dla metryki BAC)
+1. none:
+2. ROS:
+3. SMOTE:
+4. ADASYN:
+
+
+
+
+
