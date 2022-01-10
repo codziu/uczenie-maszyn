@@ -62,7 +62,7 @@ for clf_id, clf_name in enumerate(clfs):
     clf = clfs[clf_name]
     print('\n\nTesty dla',clf_name)
 
-    # Stratyfikowana walidacja krzyżowa - podczas podziału na podzbiory zachowuje oryginalny lub zbliżony do oryginalnego poziom niezbalansowania
+    # wielokrotna stratyfikowana walidacja krzyżowa - podczas podziału na podzbiory zachowuje oryginalny lub zbliżony do oryginalnego poziom niezbalansowania
     n_splits = 5
     n_repeats = 2
     rskf = RepeatedStratifiedKFold(n_splits=n_splits, n_repeats=n_repeats, random_state=3721)
@@ -70,8 +70,7 @@ for clf_id, clf_name in enumerate(clfs):
     # Przygotowujemy tablicę wyników wypełniając ją zerami
     scores = np.zeros((len(preprocs),len(datasets), n_splits * n_repeats, len(metrics)))
 
-
-    #rozpoczynamy eksperyment, pętla będzie wyliczać metrykę dla każdego datasetu
+    # wyliczanie jakości per dataset
     for data_id, dataset in enumerate(datasets):
 
         # importowanie danych
@@ -81,20 +80,24 @@ for clf_id, clf_name in enumerate(clfs):
         X = dataset[:, :-1]
         y = dataset[:, -1].astype(int)
 
-
         for fold_id, (train, test) in enumerate(rskf.split(X, y)):
             for preproc_id, preproc in enumerate(preprocs):
 
                 clf = clone(clf)
 
+                # preprocessing danych
                 if preprocs[preproc] == None:
                     X_train, y_train = X[train], y[train]
                 else:
                     X_train, y_train = preprocs[preproc].fit_resample(X[train], y[train])
 
+                # dopasowanie modelu do danych uczących
                 clf.fit(X_train, y_train)
+
+                # predykcja
                 y_pred = clf.predict(X[test])
 
+                # ocena jakości w różnych metrykach
                 scores[preproc_id, data_id, fold_id, 0] = recall(y[test], y_pred)
                 scores[preproc_id, data_id, fold_id, 1] = specificity(y[test], y_pred)
                 scores[preproc_id, data_id, fold_id, 2] = f1_score(y[test], y_pred)
@@ -120,27 +123,29 @@ for clf_id, clf_name in enumerate(clfs):
         'BAC':          mean_scores_stat[4],
     }
 
-    # Czyszczenie pliku wynikowego ze starych wyników
+    # Czyszczenie pliku wynikowego ze starych wyników (otwieranie w trybie 'w' i zamykanie)
     file = open('./results/results-'+clf_name+'.txt', 'w').close()
 
     for score_id, score_name in enumerate(scores_per_metric):
-        headers = list(preprocs.keys())
-        names_column = np.expand_dims(np.array(datasets), axis=1)
-        scores_M = np.concatenate((names_column, scores_per_metric[score_name]), axis=1)
-        scores_M = tabulate(scores_M, headers, tablefmt="2f", floatfmt='0.3f')
-
-        t_statistic = np.zeros((len(preprocs), len(preprocs)))
-        p_value = np.zeros((len(preprocs), len(preprocs)))
 
         # Aby zapisywać wyniki do pliku
         with open('./results/results-'+clf_name+'.txt', 'a') as file:
 
-            file.write(f"Usrednionie wyniki dla metryki {score_name}\n{scores_M}\n")
+            # # etykiety kolumn i wierszy (szczegółowe dane)
+            # headers = list(preprocs.keys())
+            # names_column = np.expand_dims(datasets, axis=1)
+            # # prezentacja szczegółowych danych dla metryki
+            # scores_M = np.concatenate((names_column, scores_per_metric[score_name]), axis=1)
+            # scores_M = tabulate(scores_M, headers, tablefmt="2f", floatfmt='0.3f')
+            # file.write(f"Usrednionie wyniki dla metryki {score_name}\n{scores_M}\n")
 
+            # dwuwymiarowe tablice przygotowane dla t-statystyki i p-wartośći, wartość alpha
+            t_statistic = np.zeros((len(preprocs), len(preprocs)))
+            p_value = np.zeros((len(preprocs), len(preprocs)))
             alfa = 0.05
-            data_name = datasets
 
             for label in range(len(datasets)):
+
                 scores_label = scores[:, label, :, score_id]
                 for i in range(len(preprocs)):
                     for j in range(len(preprocs)):
@@ -153,14 +158,11 @@ for clf_id, clf_name in enumerate(clfs):
                 significance[p_value <= alfa] = 1
 
                 sign_better = significance * advantage
-
-                file.write(f"\n\nStatystycznie znaczaco lepszy od: ({data_name[label]} dla {clf_name} dla metryki {score_name})\n")
-                for i in range(len(headers)):
-                    file.write(f"{i+1}. {headers[i]}:")
-                    for j in range(len(sign_better[i,:])):
-                        if sign_better[i,j] == 1:
-                            file.write(f"{j+1}, ")
-                    file.write(f"\n")
+                
+                headers = list(preprocs.keys())
+                names_column = np.expand_dims(headers, axis=1)
+                sign_better_table = tabulate(np.concatenate((names_column, sign_better), axis=1), headers)
+                file.write(f"\n\nStatystycznie znaczaco lepszy od: ({datasets[label]} dla {clf_name} dla metryki {score_name})\n{sign_better_table}\n")
             
             file.write(f"\n\n\n\n\n")
 

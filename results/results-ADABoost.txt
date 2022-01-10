@@ -1,838 +1,923 @@
-Usrednionie wyniki dla metryki Recall
-                        none    ROS    SMOTE    ADASYN
---------------------  ------  -----  -------  --------
-ecoli4                 0.725  0.700    0.850     0.750
-ecoli-0-1-4-6_vs_5     0.600  0.625    0.750     0.725
-glass2                 0.325  0.367    0.533     0.492
-glass5                 0.750  0.800    0.750     0.750
-glass6                 0.860  0.860    0.877     0.877
-glass-0-1-6_vs_2       0.225  0.367    0.392     0.458
-glass-0-1-6_vs_5       0.750  0.800    0.800     0.850
-new-thyroid1           0.943  0.929    0.929     0.929
-newthyroid2            0.943  0.943    0.929     0.943
-yeast4                 0.207  0.490    0.555     0.567
-yeast6                 0.471  0.629    0.643     0.671
-yeast-1-2-8-9_vs_7     0.183  0.217    0.367     0.333
-yeast-2_vs_4           0.676  0.726    0.795     0.795
-yeast-1_vs_7           0.200  0.367    0.517     0.533
-pima                   0.577  0.710    0.707     0.709
-segment0               0.989  0.989    0.986     0.989
-vehicle0               0.935  0.955    0.950     0.955
-page-blocks-1-3_vs_4   1.000  0.963    0.963     0.980
-vowel0                 0.922  0.922    0.961     0.967
-wisconsin              0.933  0.935    0.933     0.958
 
 
 Statystycznie znaczaco lepszy od: (ecoli4 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (ecoli-0-1-4-6_vs_5 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass2 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass5 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass6 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_2 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_5 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (new-thyroid1 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (newthyroid2 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast4 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:1, 
-3. SMOTE:1, 
-4. ADASYN:1, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast6 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:1, 
-3. SMOTE:1, 
-4. ADASYN:1, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast-1-2-8-9_vs_7 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:1, 
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast-2_vs_4 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast-1_vs_7 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:1, 
-3. SMOTE:1, 
-4. ADASYN:1, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (pima dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:1, 
-3. SMOTE:1, 
-4. ADASYN:1, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (segment0 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (vehicle0 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (page-blocks-1-3_vs_4 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (vowel0 dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:1, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (wisconsin dla ADABoost dla metryki Recall)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 
 
 
-Usrednionie wyniki dla metryki Specificity
-                        none    ROS    SMOTE    ADASYN
---------------------  ------  -----  -------  --------
-ecoli4                 0.987  0.984    0.984     0.986
-ecoli-0-1-4-6_vs_5     0.979  0.981    0.975     0.973
-glass2                 0.964  0.962    0.932     0.927
-glass5                 0.995  0.995    0.995     0.995
-glass6                 0.986  0.986    0.970     0.965
-glass-0-1-6_vs_2       0.966  0.954    0.903     0.909
-glass-0-1-6_vs_5       0.994  0.989    0.989     0.989
-new-thyroid1           0.994  0.994    0.994     0.994
-newthyroid2            0.986  0.986    0.989     0.981
-yeast4                 0.986  0.924    0.927     0.922
-yeast6                 0.991  0.971    0.961     0.951
-yeast-1-2-8-9_vs_7     0.991  0.926    0.886     0.889
-yeast-2_vs_4           0.979  0.973    0.969     0.964
-yeast-1_vs_7           0.965  0.922    0.885     0.866
-pima                   0.846  0.772    0.794     0.763
-segment0               0.999  0.998    0.999     0.998
-vehicle0               0.972  0.958    0.970     0.972
-page-blocks-1-3_vs_4   0.993  0.992    0.992     0.991
-vowel0                 0.994  0.995    0.993     0.996
-wisconsin              0.971  0.967    0.967     0.968
 
 
 Statystycznie znaczaco lepszy od: (ecoli4 dla ADABoost dla metryki Specificity)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (ecoli-0-1-4-6_vs_5 dla ADABoost dla metryki Specificity)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass2 dla ADABoost dla metryki Specificity)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass5 dla ADABoost dla metryki Specificity)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass6 dla ADABoost dla metryki Specificity)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_2 dla ADABoost dla metryki Specificity)
-1. none:3, 4, 
-2. ROS:3, 4, 
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        1         1
+ROS          0      0        1         1
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_5 dla ADABoost dla metryki Specificity)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (new-thyroid1 dla ADABoost dla metryki Specificity)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (newthyroid2 dla ADABoost dla metryki Specificity)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast4 dla ADABoost dla metryki Specificity)
-1. none:2, 3, 4, 
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      1        1         1
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast6 dla ADABoost dla metryki Specificity)
-1. none:2, 3, 4, 
-2. ROS:3, 4, 
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      1        1         1
+ROS          0      0        1         1
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast-1-2-8-9_vs_7 dla ADABoost dla metryki Specificity)
-1. none:2, 3, 4, 
-2. ROS:3, 4, 
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      1        1         1
+ROS          0      0        1         1
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast-2_vs_4 dla ADABoost dla metryki Specificity)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast-1_vs_7 dla ADABoost dla metryki Specificity)
-1. none:2, 3, 4, 
-2. ROS:3, 4, 
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      1        1         1
+ROS          0      0        1         1
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (pima dla ADABoost dla metryki Specificity)
-1. none:2, 3, 4, 
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      1        1         1
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (segment0 dla ADABoost dla metryki Specificity)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (vehicle0 dla ADABoost dla metryki Specificity)
-1. none:2, 
-2. ROS:
-3. SMOTE:
-4. ADASYN:2, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      1        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      1        0         0
 
 
 Statystycznie znaczaco lepszy od: (page-blocks-1-3_vs_4 dla ADABoost dla metryki Specificity)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (vowel0 dla ADABoost dla metryki Specificity)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (wisconsin dla ADABoost dla metryki Specificity)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 
 
 
-Usrednionie wyniki dla metryki F1
-                        none    ROS    SMOTE    ADASYN
---------------------  ------  -----  -------  --------
-ecoli4                 0.750  0.715    0.811     0.755
-ecoli-0-1-4-6_vs_5     0.625  0.656    0.706     0.688
-glass2                 0.338  0.363    0.459     0.425
-glass5                 0.763  0.793    0.763     0.760
-glass6                 0.879  0.878    0.853     0.837
-glass-0-1-6_vs_2       0.229  0.384    0.297     0.337
-glass-0-1-6_vs_5       0.747  0.747    0.747     0.783
-new-thyroid1           0.955  0.946    0.946     0.946
-newthyroid2            0.937  0.937    0.936     0.926
-yeast4                 0.258  0.269    0.311     0.302
-yeast6                 0.515  0.445    0.401     0.364
-yeast-1-2-8-9_vs_7     0.250  0.125    0.144     0.137
-yeast-2_vs_4           0.728  0.740    0.768     0.753
-yeast-1_vs_7           0.242  0.282    0.321     0.307
-pima                   0.617  0.664    0.674     0.659
-segment0               0.992  0.989    0.989     0.990
-vehicle0               0.923  0.913    0.928     0.934
-page-blocks-1-3_vs_4   0.958  0.930    0.929     0.932
-vowel0                 0.933  0.934    0.948     0.961
-wisconsin              0.939  0.937    0.935     0.950
 
 
 Statystycznie znaczaco lepszy od: (ecoli4 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (ecoli-0-1-4-6_vs_5 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass2 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass5 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass6 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_2 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_5 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (new-thyroid1 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (newthyroid2 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast4 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast6 dla ADABoost dla metryki F1)
-1. none:3, 4, 
-2. ROS:4, 
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        1         1
+ROS          0      0        0         1
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast-1-2-8-9_vs_7 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast-2_vs_4 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast-1_vs_7 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (pima dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:1, 
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (segment0 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (vehicle0 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:2, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      1        0         0
 
 
 Statystycznie znaczaco lepszy od: (page-blocks-1-3_vs_4 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (vowel0 dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:1, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (wisconsin dla ADABoost dla metryki F1)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 
 
 
-Usrednionie wyniki dla metryki G-mean
-                        none    ROS    SMOTE    ADASYN
---------------------  ------  -----  -------  --------
-ecoli4                 0.839  0.822    0.910     0.852
-ecoli-0-1-4-6_vs_5     0.750  0.771    0.839     0.825
-glass2                 0.488  0.520    0.686     0.657
-glass5                 0.810  0.839    0.810     0.810
-glass6                 0.918  0.917    0.918     0.916
-glass-0-1-6_vs_2       0.289  0.492    0.520     0.562
-glass-0-1-6_vs_5       0.769  0.796    0.796     0.865
-new-thyroid1           0.967  0.959    0.959     0.959
-newthyroid2            0.963  0.963    0.957     0.960
-yeast4                 0.441  0.665    0.710     0.714
-yeast6                 0.680  0.775    0.778     0.792
-yeast-1-2-8-9_vs_7     0.349  0.392    0.550     0.530
-yeast-2_vs_4           0.810  0.838    0.874     0.872
-yeast-1_vs_7           0.388  0.539    0.658     0.670
-pima                   0.697  0.739    0.747     0.735
-segment0               0.994  0.994    0.992     0.994
-vehicle0               0.953  0.956    0.960     0.963
-page-blocks-1-3_vs_4   0.997  0.977    0.977     0.985
-vowel0                 0.957  0.957    0.977     0.981
-wisconsin              0.951  0.950    0.949     0.963
 
 
 Statystycznie znaczaco lepszy od: (ecoli4 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (ecoli-0-1-4-6_vs_5 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass2 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass5 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass6 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_2 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_5 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (new-thyroid1 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (newthyroid2 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast4 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:1, 
-3. SMOTE:1, 
-4. ADASYN:1, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast6 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:1, 
-3. SMOTE:1, 
-4. ADASYN:1, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast-1-2-8-9_vs_7 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:1, 
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast-2_vs_4 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast-1_vs_7 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:1, 
-4. ADASYN:1, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (pima dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:1, 
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (segment0 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (vehicle0 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (page-blocks-1-3_vs_4 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (vowel0 dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:1, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (wisconsin dla ADABoost dla metryki G-mean)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 
 
 
-Usrednionie wyniki dla metryki BAC
-                        none    ROS    SMOTE    ADASYN
---------------------  ------  -----  -------  --------
-ecoli4                 0.856  0.842    0.917     0.868
-ecoli-0-1-4-6_vs_5     0.789  0.803    0.862     0.849
-glass2                 0.645  0.664    0.733     0.709
-glass5                 0.873  0.898    0.873     0.873
-glass6                 0.923  0.923    0.923     0.921
-glass-0-1-6_vs_2       0.595  0.660    0.647     0.683
-glass-0-1-6_vs_5       0.872  0.894    0.894     0.919
-new-thyroid1           0.969  0.962    0.962     0.962
-newthyroid2            0.964  0.964    0.959     0.962
-yeast4                 0.597  0.707    0.741     0.745
-yeast6                 0.731  0.800    0.802     0.811
-yeast-1-2-8-9_vs_7     0.587  0.571    0.626     0.611
-yeast-2_vs_4           0.828  0.850    0.882     0.879
-yeast-1_vs_7           0.582  0.644    0.701     0.700
-pima                   0.711  0.741    0.750     0.736
-segment0               0.994  0.994    0.993     0.994
-vehicle0               0.953  0.957    0.960     0.964
-page-blocks-1-3_vs_4   0.997  0.978    0.978     0.986
-vowel0                 0.958  0.959    0.977     0.981
-wisconsin              0.952  0.951    0.950     0.963
 
 
 Statystycznie znaczaco lepszy od: (ecoli4 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (ecoli-0-1-4-6_vs_5 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass2 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass5 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass6 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_2 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_5 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (new-thyroid1 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (newthyroid2 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast4 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:1, 
-3. SMOTE:1, 
-4. ADASYN:1, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast6 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:1, 
-3. SMOTE:1, 
-4. ADASYN:1, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast-1-2-8-9_vs_7 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast-2_vs_4 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (yeast-1_vs_7 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:1, 
-4. ADASYN:1, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (pima dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (segment0 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (vehicle0 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (page-blocks-1-3_vs_4 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (vowel0 dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:1, 
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy od: (wisconsin dla ADABoost dla metryki BAC)
-1. none:
-2. ROS:
-3. SMOTE:
-4. ADASYN:
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 

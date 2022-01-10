@@ -1,1 +1,0 @@
-# here will be project's description and results (maybe)
