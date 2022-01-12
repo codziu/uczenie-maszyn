@@ -107,46 +107,6 @@ for clf_id, clf_name in enumerate(clfs):
 
 
     #########################################################################
-    # ANALIZA STATYSTYCZNA
-    #########################################################################
-
-    # Czyszczenie pliku wynikowego ze starych wyników (otwieranie w trybie 'w' i zamykanie)
-    file = open('./results/results-'+clf_name+'.txt', 'w').close()
-
-    # Aby zapisywać wyniki do pliku
-    with open('./results/results-'+clf_name+'.txt', 'a') as file:
-
-        for score_id, score_name in enumerate(metrics):
-
-            # dwuwymiarowe tablice przygotowane dla t-statystyki i p-wartośći, wartość alpha
-            t_statistic = np.zeros((len(preprocs), len(preprocs)))
-            p_value = np.zeros((len(preprocs), len(preprocs)))
-            alfa = 0.05
-
-            for dataset_id in range(len(datasets)):
-                scores_F = scores[:, dataset_id, :, score_id]
-                for i in range(len(preprocs)):
-                    for j in range(len(preprocs)):
-                        t_statistic[i, j], p_value[i, j] = ttest_ind(scores_F[i], scores_F[j])
-
-                advantage = np.zeros((len(preprocs), len(preprocs)))
-                advantage[t_statistic > 0] = 1
-
-                significance = np.zeros((len(preprocs), len(preprocs)))
-                significance[p_value <= alfa] = 1
-
-                sign_better = significance * advantage
-                
-                headers = list(preprocs.keys())
-                names_column = np.expand_dims(headers, axis=1)
-                sign_better_table = tabulate(np.concatenate((names_column, sign_better), axis=1), headers)
-                file.write(f"\n\nStatystycznie znaczaco lepszy od: ({datasets[dataset_id]} dla {clf_name} dla metryki {score_name})\n{sign_better_table}\n")
-            
-            file.write(f"\n\n\n\n\n")
-
-
-
-    #########################################################################
     # WYKRESY
     #########################################################################
 
@@ -198,6 +158,46 @@ for clf_id, clf_name in enumerate(clfs):
     # Resetujemy plot aby wyniki per clf się nie nakładały
     plt.clf()
     plt.cla()
+
+
+
+    #########################################################################
+    # ANALIZA STATYSTYCZNA
+    #########################################################################
+
+    # Czyszczenie pliku wynikowego ze starych wyników (otwieranie w trybie 'w' i zamykanie)
+    file = open('./results/results-'+clf_name+'.txt', 'w').close()
+
+    # Aby zapisywać wyniki do pliku
+    with open('./results/results-'+clf_name+'.txt', 'a') as file:
+
+        for score_id, score_name in enumerate(metrics):
+
+            # dwuwymiarowe tablice przygotowane dla t-statystyki i p-wartośći, wartość alpha
+            t_statistic = np.zeros((len(preprocs), len(preprocs)))
+            p_value = np.zeros((len(preprocs), len(preprocs)))
+            alfa = 0.05
+
+            for dataset_id in range(len(datasets)):
+                scores_F = scores[:, dataset_id, :, score_id]
+                for i in range(len(preprocs)):
+                    for j in range(len(preprocs)):
+                        t_statistic[i, j], p_value[i, j] = ttest_ind(scores_F[i], scores_F[j])
+
+                advantage = np.zeros((len(preprocs), len(preprocs)))
+                advantage[t_statistic > 0] = 1
+
+                significance = np.zeros((len(preprocs), len(preprocs)))
+                significance[p_value <= alfa] = 1
+
+                sign_better = significance * advantage
+                
+                headers = list(preprocs.keys())
+                names_column = np.expand_dims(headers, axis=1)
+                sign_better_table = tabulate(np.concatenate((names_column, sign_better), axis=1), headers)
+                file.write(f"\n\nStatystycznie znaczaco lepszy od: ({datasets[dataset_id]} dla {clf_name} dla metryki {score_name})\n{sign_better_table}\n")
+            
+            file.write(f"\n\n\n\n\n")
 
 
 
