@@ -1,116 +1,30 @@
 Usrednionie wyniki dla metryki Recall:
                         none    ROS    SMOTE    ADASYN
 --------------------  ------  -----  -------  --------
-ecoli4                 0.633  0.783    0.833     0.850
-ecoli-0-1-4-6_vs_5     0.667  0.733    0.850     0.833
-glass2                 0.022  0.283    0.511     0.383
-glass5                 0.533  0.833    0.767     0.767
-glass6                 0.829  0.851    0.851     0.873
-glass-0-1-6_vs_2       0.050  0.306    0.389     0.383
-glass-0-1-6_vs_5       0.100  0.933    0.933     0.933
-new-thyroid1           0.876  0.914    0.924     0.924
-newthyroid2            0.886  0.914    0.943     0.943
-yeast4                 0.245  0.354    0.457     0.419
 yeast6                 0.438  0.590    0.648     0.648
 yeast-1-2-8-9_vs_7     0.233  0.267    0.289     0.267
-yeast-2_vs_4           0.679  0.793    0.810     0.791
-yeast-1_vs_7           0.322  0.289    0.522     0.578
-pima                   0.558  0.655    0.665     0.669
-segment0               0.969  0.981    0.978     0.981
-vehicle0               0.873  0.923    0.930     0.938
+yeast4                 0.245  0.354    0.457     0.419
+glass5                 0.533  0.833    0.767     0.767
+glass-0-1-6_vs_5       0.100  0.933    0.933     0.933
 page-blocks-1-3_vs_4   0.880  1.000    1.000     1.000
+ecoli4                 0.633  0.783    0.833     0.850
+yeast-1_vs_7           0.322  0.289    0.522     0.578
+ecoli-0-1-4-6_vs_5     0.667  0.733    0.850     0.833
+glass2                 0.022  0.283    0.511     0.383
+glass-0-1-6_vs_2       0.050  0.306    0.389     0.383
 vowel0                 0.885  0.941    0.959     0.967
+yeast-2_vs_4           0.679  0.793    0.810     0.791
+glass6                 0.829  0.851    0.851     0.873
+segment0               0.969  0.981    0.978     0.981
+new-thyroid1           0.876  0.914    0.924     0.924
+newthyroid2            0.886  0.914    0.943     0.943
+vehicle0               0.873  0.923    0.930     0.938
+pima                   0.558  0.655    0.665     0.669
 wisconsin              0.929  0.946    0.940     0.953
 
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli4 przy DES_KNN dla metryki Recall):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli-0-1-4-6_vs_5 przy DES_KNN dla metryki Recall):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass2 przy DES_KNN dla metryki Recall):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      1        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass5 przy DES_KNN dla metryki Recall):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass6 przy DES_KNN dla metryki Recall):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_2 przy DES_KNN dla metryki Recall):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_5 przy DES_KNN dla metryki Recall):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (new-thyroid1 przy DES_KNN dla metryki Recall):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (newthyroid2 przy DES_KNN dla metryki Recall):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (yeast4 przy DES_KNN dla metryki Recall):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
+                none    ROS    SMOTE    ADASYN
+------------  ------  -----  -------  --------
+all datasets   0.580  0.715    0.760     0.755
 
 
 Statystycznie znaczaco lepszy (Test T-Studenta) (yeast6 przy DES_KNN dla metryki Recall):
@@ -131,7 +45,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-2_vs_4 przy DES_KNN dla metryki Recall):
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast4 przy DES_KNN dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -140,34 +54,16 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1_vs_7 przy DES_KNN dla metryki Recall):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        1      1        0         0
-ADASYN       1      1        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (pima przy DES_KNN dla metryki Recall):
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass5 przy DES_KNN dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (segment0 przy DES_KNN dla metryki Recall):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
 SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy (Test T-Studenta) (vehicle0 przy DES_KNN dla metryki Recall):
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_5 przy DES_KNN dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -185,7 +81,115 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli4 przy DES_KNN dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1_vs_7 przy DES_KNN dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      1        0         0
+ADASYN       1      1        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli-0-1-4-6_vs_5 przy DES_KNN dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass2 przy DES_KNN dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      1        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_2 przy DES_KNN dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
 Statystycznie znaczaco lepszy (Test T-Studenta) (vowel0 przy DES_KNN dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-2_vs_4 przy DES_KNN dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass6 przy DES_KNN dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (segment0 przy DES_KNN dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (new-thyroid1 przy DES_KNN dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (newthyroid2 przy DES_KNN dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (vehicle0 przy DES_KNN dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (pima przy DES_KNN dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -219,26 +223,84 @@ ADASYN       0      0        0         0
 Usrednionie wyniki dla metryki Specificity:
                         none    ROS    SMOTE    ADASYN
 --------------------  ------  -----  -------  --------
-ecoli4                 0.993  0.982    0.977     0.977
-ecoli-0-1-4-6_vs_5     0.981  0.960    0.955     0.962
-glass2                 0.976  0.927    0.892     0.902
-glass5                 0.984  0.974    0.974     0.974
-glass6                 0.969  0.962    0.959     0.950
-glass-0-1-6_vs_2       0.973  0.918    0.888     0.899
-glass-0-1-6_vs_5       0.994  0.977    0.979     0.979
-new-thyroid1           0.976  0.985    0.989     0.983
-newthyroid2            0.983  0.981    0.981     0.983
-yeast4                 0.984  0.967    0.941     0.939
 yeast6                 0.988  0.979    0.966     0.954
 yeast-1-2-8-9_vs_7     0.988  0.957    0.915     0.903
-yeast-2_vs_4           0.968  0.955    0.947     0.945
-yeast-1_vs_7           0.980  0.911    0.880     0.866
-pima                   0.809  0.743    0.745     0.709
-segment0               0.997  0.995    0.994     0.995
-vehicle0               0.961  0.949    0.945     0.942
+yeast4                 0.984  0.967    0.941     0.939
+glass5                 0.984  0.974    0.974     0.974
+glass-0-1-6_vs_5       0.994  0.977    0.979     0.979
 page-blocks-1-3_vs_4   0.998  0.995    0.995     0.995
+ecoli4                 0.993  0.982    0.977     0.977
+yeast-1_vs_7           0.980  0.911    0.880     0.866
+ecoli-0-1-4-6_vs_5     0.981  0.960    0.955     0.962
+glass2                 0.976  0.927    0.892     0.902
+glass-0-1-6_vs_2       0.973  0.918    0.888     0.899
 vowel0                 0.990  0.979    0.980     0.981
+yeast-2_vs_4           0.968  0.955    0.947     0.945
+glass6                 0.969  0.962    0.959     0.950
+segment0               0.997  0.995    0.994     0.995
+new-thyroid1           0.976  0.985    0.989     0.983
+newthyroid2            0.983  0.981    0.981     0.983
+vehicle0               0.961  0.949    0.945     0.942
+pima                   0.809  0.743    0.745     0.709
 wisconsin              0.968  0.968    0.962     0.962
+
+                none    ROS    SMOTE    ADASYN
+------------  ------  -----  -------  --------
+all datasets   0.973  0.953    0.943     0.940
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast6 przy DES_KNN dla metryki Specificity):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      1        1         1
+ROS          0      0        1         1
+SMOTE        0      0        0         1
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1-2-8-9_vs_7 przy DES_KNN dla metryki Specificity):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      1        1         1
+ROS          0      0        1         1
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast4 przy DES_KNN dla metryki Specificity):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      1        1         1
+ROS          0      0        1         1
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass5 przy DES_KNN dla metryki Specificity):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_5 przy DES_KNN dla metryki Specificity):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      1        1         1
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (page-blocks-1-3_vs_4 przy DES_KNN dla metryki Specificity):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli4 przy DES_KNN dla metryki Specificity):
@@ -246,6 +308,15 @@ Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli4 przy DES_KNN dla metryki
 ------  ------  -----  -------  --------
 none         0      0        1         1
 ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1_vs_7 przy DES_KNN dla metryki Specificity):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      1        1         1
+ROS          0      0        1         1
 SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
@@ -268,10 +339,28 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass5 przy DES_KNN dla metryki Specificity):
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_2 przy DES_KNN dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
-none         0      0        0         0
+none         0      1        1         1
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (vowel0 przy DES_KNN dla metryki Specificity):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      1        1         1
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-2_vs_4 przy DES_KNN dla metryki Specificity):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        1         1
 ROS          0      0        0         0
 SMOTE        0      0        0         0
 ADASYN       0      0        0         0
@@ -286,19 +375,10 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_2 przy DES_KNN dla metryki Specificity):
+Statystycznie znaczaco lepszy (Test T-Studenta) (segment0 przy DES_KNN dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
-none         0      1        1         1
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_5 przy DES_KNN dla metryki Specificity):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      1        1         1
+none         0      0        1         0
 ROS          0      0        0         0
 SMOTE        0      0        0         0
 ADASYN       0      0        0         0
@@ -322,47 +402,11 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy (Test T-Studenta) (yeast4 przy DES_KNN dla metryki Specificity):
+Statystycznie znaczaco lepszy (Test T-Studenta) (vehicle0 przy DES_KNN dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      1        1         1
-ROS          0      0        1         1
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (yeast6 przy DES_KNN dla metryki Specificity):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      1        1         1
-ROS          0      0        1         1
-SMOTE        0      0        0         1
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1-2-8-9_vs_7 przy DES_KNN dla metryki Specificity):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      1        1         1
-ROS          0      0        1         1
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-2_vs_4 przy DES_KNN dla metryki Specificity):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        1         1
 ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1_vs_7 przy DES_KNN dla metryki Specificity):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      1        1         1
-ROS          0      0        1         1
 SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
@@ -373,42 +417,6 @@ Statystycznie znaczaco lepszy (Test T-Studenta) (pima przy DES_KNN dla metryki S
 none         0      1        1         1
 ROS          0      0        0         0
 SMOTE        0      0        0         1
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (segment0 przy DES_KNN dla metryki Specificity):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        1         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (vehicle0 przy DES_KNN dla metryki Specificity):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      1        1         1
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (page-blocks-1-3_vs_4 przy DES_KNN dla metryki Specificity):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (vowel0 przy DES_KNN dla metryki Specificity):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      1        1         1
-ROS          0      0        0         0
-SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
@@ -437,116 +445,30 @@ ADASYN       0      0        0         0
 Usrednionie wyniki dla metryki F1:
                         none    ROS    SMOTE    ADASYN
 --------------------  ------  -----  -------  --------
-ecoli4                 0.698  0.752    0.758     0.770
-ecoli-0-1-4-6_vs_5     0.689  0.670    0.713     0.723
-glass2                 0.033  0.241    0.355     0.287
-glass5                 0.540  0.697    0.654     0.634
-glass6                 0.815  0.813    0.800     0.796
-glass-0-1-6_vs_2       0.060  0.262    0.292     0.305
-glass-0-1-6_vs_5       0.089  0.782    0.796     0.796
-new-thyroid1           0.876  0.918    0.933     0.919
-newthyroid2            0.900  0.910    0.926     0.930
-yeast4                 0.282  0.305    0.288     0.270
 yeast6                 0.446  0.487    0.427     0.366
 yeast-1-2-8-9_vs_7     0.279  0.215    0.147     0.129
-yeast-2_vs_4           0.692  0.720    0.709     0.688
-yeast-1_vs_7           0.387  0.210    0.319     0.335
-pima                   0.581  0.614    0.621     0.605
-segment0               0.975  0.976    0.972     0.975
-vehicle0               0.872  0.884    0.882     0.883
+yeast4                 0.282  0.305    0.288     0.270
+glass5                 0.540  0.697    0.654     0.634
+glass-0-1-6_vs_5       0.089  0.782    0.796     0.796
 page-blocks-1-3_vs_4   0.916  0.967    0.967     0.970
+ecoli4                 0.698  0.752    0.758     0.770
+yeast-1_vs_7           0.387  0.210    0.319     0.335
+ecoli-0-1-4-6_vs_5     0.689  0.670    0.713     0.723
+glass2                 0.033  0.241    0.355     0.287
+glass-0-1-6_vs_2       0.060  0.262    0.292     0.305
 vowel0                 0.893  0.877    0.892     0.899
+yeast-2_vs_4           0.692  0.720    0.709     0.688
+glass6                 0.815  0.813    0.800     0.796
+segment0               0.975  0.976    0.972     0.975
+new-thyroid1           0.876  0.918    0.933     0.919
+newthyroid2            0.900  0.910    0.926     0.930
+vehicle0               0.872  0.884    0.882     0.883
+pima                   0.581  0.614    0.621     0.605
 wisconsin              0.933  0.943    0.935     0.941
 
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli4 przy DES_KNN dla metryki F1):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli-0-1-4-6_vs_5 przy DES_KNN dla metryki F1):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass2 przy DES_KNN dla metryki F1):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass5 przy DES_KNN dla metryki F1):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass6 przy DES_KNN dla metryki F1):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_2 przy DES_KNN dla metryki F1):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_5 przy DES_KNN dla metryki F1):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (new-thyroid1 przy DES_KNN dla metryki F1):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (newthyroid2 przy DES_KNN dla metryki F1):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (yeast4 przy DES_KNN dla metryki F1):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
+                none    ROS    SMOTE    ADASYN
+------------  ------  -----  -------  --------
+all datasets   0.598  0.662    0.669     0.661
 
 
 Statystycznie znaczaco lepszy (Test T-Studenta) (yeast6 przy DES_KNN dla metryki F1):
@@ -567,7 +489,43 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-2_vs_4 przy DES_KNN dla metryki F1):
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast4 przy DES_KNN dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass5 przy DES_KNN dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_5 przy DES_KNN dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (page-blocks-1-3_vs_4 przy DES_KNN dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli4 przy DES_KNN dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -585,16 +543,79 @@ SMOTE        0      1        0         0
 ADASYN       0      1        0         0
 
 
-Statystycznie znaczaco lepszy (Test T-Studenta) (pima przy DES_KNN dla metryki F1):
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli-0-1-4-6_vs_5 przy DES_KNN dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass2 przy DES_KNN dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
 SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_2 przy DES_KNN dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (vowel0 przy DES_KNN dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-2_vs_4 przy DES_KNN dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass6 przy DES_KNN dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy (Test T-Studenta) (segment0 przy DES_KNN dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (new-thyroid1 przy DES_KNN dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (newthyroid2 przy DES_KNN dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -612,21 +633,12 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy (Test T-Studenta) (page-blocks-1-3_vs_4 przy DES_KNN dla metryki F1):
+Statystycznie znaczaco lepszy (Test T-Studenta) (pima przy DES_KNN dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (vowel0 przy DES_KNN dla metryki F1):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
+SMOTE        1      0        0         0
 ADASYN       0      0        0         0
 
 
@@ -655,116 +667,30 @@ ADASYN       0      0        0         0
 Usrednionie wyniki dla metryki G-mean:
                         none    ROS    SMOTE    ADASYN
 --------------------  ------  -----  -------  --------
-ecoli4                 0.772  0.866    0.893     0.904
-ecoli-0-1-4-6_vs_5     0.795  0.833    0.893     0.887
-glass2                 0.038  0.406    0.611     0.511
-glass5                 0.639  0.863    0.798     0.796
-glass6                 0.890  0.900    0.899     0.906
-glass-0-1-6_vs_2       0.079  0.444    0.513     0.516
-glass-0-1-6_vs_5       0.113  0.923    0.924     0.924
-new-thyroid1           0.923  0.947    0.955     0.951
-newthyroid2            0.930  0.944    0.961     0.962
-yeast4                 0.480  0.574    0.644     0.623
 yeast6                 0.641  0.751    0.783     0.777
 yeast-1-2-8-9_vs_7     0.418  0.494    0.470     0.446
-yeast-2_vs_4           0.807  0.868    0.874     0.861
-yeast-1_vs_7           0.508  0.460    0.666     0.701
-pima                   0.669  0.696    0.702     0.688
-segment0               0.983  0.988    0.986     0.988
-vehicle0               0.915  0.935    0.937     0.940
+yeast4                 0.480  0.574    0.644     0.623
+glass5                 0.639  0.863    0.798     0.796
+glass-0-1-6_vs_5       0.113  0.923    0.924     0.924
 page-blocks-1-3_vs_4   0.935  0.998    0.998     0.998
+ecoli4                 0.772  0.866    0.893     0.904
+yeast-1_vs_7           0.508  0.460    0.666     0.701
+ecoli-0-1-4-6_vs_5     0.795  0.833    0.893     0.887
+glass2                 0.038  0.406    0.611     0.511
+glass-0-1-6_vs_2       0.079  0.444    0.513     0.516
 vowel0                 0.936  0.959    0.969     0.973
+yeast-2_vs_4           0.807  0.868    0.874     0.861
+glass6                 0.890  0.900    0.899     0.906
+segment0               0.983  0.988    0.986     0.988
+new-thyroid1           0.923  0.947    0.955     0.951
+newthyroid2            0.930  0.944    0.961     0.962
+vehicle0               0.915  0.935    0.937     0.940
+pima                   0.669  0.696    0.702     0.688
 wisconsin              0.947  0.956    0.951     0.957
 
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli4 przy DES_KNN dla metryki G-mean):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli-0-1-4-6_vs_5 przy DES_KNN dla metryki G-mean):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass2 przy DES_KNN dla metryki G-mean):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass5 przy DES_KNN dla metryki G-mean):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass6 przy DES_KNN dla metryki G-mean):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_2 przy DES_KNN dla metryki G-mean):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_5 przy DES_KNN dla metryki G-mean):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (new-thyroid1 przy DES_KNN dla metryki G-mean):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (newthyroid2 przy DES_KNN dla metryki G-mean):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (yeast4 przy DES_KNN dla metryki G-mean):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
+                none    ROS    SMOTE    ADASYN
+------------  ------  -----  -------  --------
+all datasets   0.671  0.790    0.821     0.815
 
 
 Statystycznie znaczaco lepszy (Test T-Studenta) (yeast6 przy DES_KNN dla metryki G-mean):
@@ -785,13 +711,49 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-2_vs_4 przy DES_KNN dla metryki G-mean):
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast4 przy DES_KNN dla metryki G-mean):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          1      0        0         0
 SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass5 przy DES_KNN dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
 ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_5 przy DES_KNN dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (page-blocks-1-3_vs_4 przy DES_KNN dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli4 przy DES_KNN dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1_vs_7 przy DES_KNN dla metryki G-mean):
@@ -803,16 +765,79 @@ SMOTE        1      1        0         0
 ADASYN       1      1        0         0
 
 
-Statystycznie znaczaco lepszy (Test T-Studenta) (pima przy DES_KNN dla metryki G-mean):
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli-0-1-4-6_vs_5 przy DES_KNN dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass2 przy DES_KNN dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_2 przy DES_KNN dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (vowel0 przy DES_KNN dla metryki G-mean):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          0      0        0         0
 SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-2_vs_4 przy DES_KNN dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass6 przy DES_KNN dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy (Test T-Studenta) (segment0 przy DES_KNN dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (new-thyroid1 przy DES_KNN dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (newthyroid2 przy DES_KNN dla metryki G-mean):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -830,22 +855,13 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy (Test T-Studenta) (page-blocks-1-3_vs_4 przy DES_KNN dla metryki G-mean):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (vowel0 przy DES_KNN dla metryki G-mean):
+Statystycznie znaczaco lepszy (Test T-Studenta) (pima przy DES_KNN dla metryki G-mean):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          0      0        0         0
 SMOTE        1      0        0         0
-ADASYN       1      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy (Test T-Studenta) (wisconsin przy DES_KNN dla metryki G-mean):
@@ -873,116 +889,30 @@ ADASYN       0      0        0         0
 Usrednionie wyniki dla metryki BAC:
                         none    ROS    SMOTE    ADASYN
 --------------------  ------  -----  -------  --------
-ecoli4                 0.813  0.883    0.905     0.913
-ecoli-0-1-4-6_vs_5     0.824  0.847    0.903     0.897
-glass2                 0.499  0.605    0.701     0.643
-glass5                 0.759  0.904    0.870     0.870
-glass6                 0.899  0.907    0.905     0.911
-glass-0-1-6_vs_2       0.512  0.612    0.638     0.641
-glass-0-1-6_vs_5       0.547  0.955    0.956     0.956
-new-thyroid1           0.926  0.950    0.956     0.954
-newthyroid2            0.935  0.948    0.962     0.963
-yeast4                 0.615  0.660    0.699     0.679
 yeast6                 0.713  0.785    0.807     0.801
 yeast-1-2-8-9_vs_7     0.611  0.612    0.602     0.585
-yeast-2_vs_4           0.824  0.874    0.879     0.868
-yeast-1_vs_7           0.651  0.600    0.701     0.722
-pima                   0.684  0.699    0.705     0.689
-segment0               0.983  0.988    0.986     0.988
-vehicle0               0.917  0.936    0.937     0.940
+yeast4                 0.615  0.660    0.699     0.679
+glass5                 0.759  0.904    0.870     0.870
+glass-0-1-6_vs_5       0.547  0.955    0.956     0.956
 page-blocks-1-3_vs_4   0.939  0.998    0.998     0.998
+ecoli4                 0.813  0.883    0.905     0.913
+yeast-1_vs_7           0.651  0.600    0.701     0.722
+ecoli-0-1-4-6_vs_5     0.824  0.847    0.903     0.897
+glass2                 0.499  0.605    0.701     0.643
+glass-0-1-6_vs_2       0.512  0.612    0.638     0.641
 vowel0                 0.938  0.960    0.970     0.974
+yeast-2_vs_4           0.824  0.874    0.879     0.868
+glass6                 0.899  0.907    0.905     0.911
+segment0               0.983  0.988    0.986     0.988
+new-thyroid1           0.926  0.950    0.956     0.954
+newthyroid2            0.935  0.948    0.962     0.963
+vehicle0               0.917  0.936    0.937     0.940
+pima                   0.684  0.699    0.705     0.689
 wisconsin              0.948  0.957    0.951     0.957
 
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli4 przy DES_KNN dla metryki BAC):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli-0-1-4-6_vs_5 przy DES_KNN dla metryki BAC):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass2 przy DES_KNN dla metryki BAC):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass5 przy DES_KNN dla metryki BAC):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass6 przy DES_KNN dla metryki BAC):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_2 przy DES_KNN dla metryki BAC):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_5 przy DES_KNN dla metryki BAC):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (new-thyroid1 przy DES_KNN dla metryki BAC):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (newthyroid2 przy DES_KNN dla metryki BAC):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (yeast4 przy DES_KNN dla metryki BAC):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
+                none    ROS    SMOTE    ADASYN
+------------  ------  -----  -------  --------
+all datasets   0.777  0.834    0.852     0.847
 
 
 Statystycznie znaczaco lepszy (Test T-Studenta) (yeast6 przy DES_KNN dla metryki BAC):
@@ -1003,13 +933,49 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-2_vs_4 przy DES_KNN dla metryki BAC):
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast4 przy DES_KNN dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass5 przy DES_KNN dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_5 przy DES_KNN dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          1      0        0         0
 SMOTE        1      0        0         0
-ADASYN       0      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (page-blocks-1-3_vs_4 przy DES_KNN dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli4 przy DES_KNN dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
 
 
 Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1_vs_7 przy DES_KNN dla metryki BAC):
@@ -1021,7 +987,52 @@ SMOTE        0      1        0         0
 ADASYN       0      1        0         0
 
 
-Statystycznie znaczaco lepszy (Test T-Studenta) (pima przy DES_KNN dla metryki BAC):
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli-0-1-4-6_vs_5 przy DES_KNN dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass2 przy DES_KNN dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_2 przy DES_KNN dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (vowel0 przy DES_KNN dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-2_vs_4 przy DES_KNN dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass6 przy DES_KNN dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -1039,6 +1050,24 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
+Statystycznie znaczaco lepszy (Test T-Studenta) (new-thyroid1 przy DES_KNN dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (newthyroid2 przy DES_KNN dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
 Statystycznie znaczaco lepszy (Test T-Studenta) (vehicle0 przy DES_KNN dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
@@ -1048,22 +1077,13 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy (Test T-Studenta) (page-blocks-1-3_vs_4 przy DES_KNN dla metryki BAC):
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy (Test T-Studenta) (vowel0 przy DES_KNN dla metryki BAC):
+Statystycznie znaczaco lepszy (Test T-Studenta) (pima przy DES_KNN dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          0      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
 Statystycznie znaczaco lepszy (Test T-Studenta) (wisconsin przy DES_KNN dla metryki BAC):

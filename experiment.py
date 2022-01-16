@@ -19,25 +19,25 @@ clfs = {
 }
 
 datasets = [
-    'ecoli4',
-    'ecoli-0-1-4-6_vs_5',
-    'glass2',
-    'glass5',
-    'glass6',
-    'glass-0-1-6_vs_2',
-    'glass-0-1-6_vs_5',
-    'new-thyroid1',
-    'newthyroid2',
-    'yeast4',
     'yeast6',
     'yeast-1-2-8-9_vs_7',
-    'yeast-2_vs_4',
-    'yeast-1_vs_7',
-    'pima',
-    'segment0',
-    'vehicle0',
+    'yeast4',
+    'glass5',
+    'glass-0-1-6_vs_5',
     'page-blocks-1-3_vs_4',
+    'ecoli4',
+    'yeast-1_vs_7',
+    'ecoli-0-1-4-6_vs_5',
+    'glass2',
+    'glass-0-1-6_vs_2',
     'vowel0',
+    'yeast-2_vs_4',
+    'glass6',
+    'segment0',
+    'new-thyroid1',
+    'newthyroid2',
+    'vehicle0',
+    'pima',
     'wisconsin',
 ]
 
@@ -183,6 +183,12 @@ for clf_id, clf_name in enumerate(clfs):
             scores_M = tabulate(scores_M, headers, tablefmt="2f", floatfmt='0.3f')
             file.write(f"Usrednionie wyniki dla metryki {score_name}:\n{scores_M}\n")
 
+            # wyświetlanie średnich dla wszystkich datasetów (obliczone w poprzedniej sekcji z wykresami)
+            headers = list(preprocs.keys())
+            names_column = [['all datasets']]
+            scores_all = np.concatenate((names_column, [mean_scores_chart[score_id]]), axis=1)
+            scores_all = tabulate(scores_all, headers, tablefmt="2f", floatfmt='0.3f')
+            file.write(f"\n{scores_all}\n")
 
             #########################################################################
             # ANALIZA STATYSTYCZNA
