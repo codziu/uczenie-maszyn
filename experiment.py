@@ -1,4 +1,6 @@
 import numpy as np
+from deslib.des import KNORAU, KNORAE, DESKNN
+from sklearn.ensemble import AdaBoostClassifier
 from imblearn.over_sampling import RandomOverSampler, SMOTE, ADASYN
 from strlearn.metrics import recall, specificity, f1_score, geometric_mean_score_1, balanced_accuracy_score
 from sklearn.model_selection import RepeatedStratifiedKFold
@@ -7,9 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from math import pi
 from tabulate import tabulate
-from scipy.stats import ttest_ind
-from deslib.des import KNORAU, KNORAE, DESKNN
-from sklearn.ensemble import AdaBoostClassifier
+from scipy.stats import ttest_ind, rankdata, ranksums
 
 clfs = {
     "DES_KNN": DESKNN(random_state=997),
@@ -62,9 +62,9 @@ for clf_id, clf_name in enumerate(clfs):
     clf = clfs[clf_name]
     print('\n\nTesty dla',clf_name)
 
-    # wielokrotna stratyfikowana walidacja krzyżowa - podczas podziału na podzbiory zachowuje oryginalny lub zbliżony do oryginalnego poziom niezbalansowania
+    # trzykrotnie powtórzona pięciokrotna stratyfikowana walidacja krzyżowa - podczas podziału na podzbiory zachowuje oryginalny lub zbliżony do oryginalnego poziom niezbalansowania
     n_splits = 5
-    n_repeats = 2
+    n_repeats = 3
     rskf = RepeatedStratifiedKFold(n_splits=n_splits, n_repeats=n_repeats, random_state=3721)
 
     # Przygotowujemy tablicę wyników wypełniając ją zerami
@@ -103,7 +103,6 @@ for clf_id, clf_name in enumerate(clfs):
                 scores[preproc_id, data_id, fold_id, 2] = f1_score(y[test], y_pred)
                 scores[preproc_id, data_id, fold_id, 3] = geometric_mean_score_1(y[test], y_pred)
                 scores[preproc_id, data_id, fold_id, 4] = balanced_accuracy_score(y[test], y_pred)
-
 
 
     #########################################################################
@@ -159,12 +158,6 @@ for clf_id, clf_name in enumerate(clfs):
     plt.clf()
     plt.cla()
 
-
-
-    #########################################################################
-    # ANALIZA STATYSTYCZNA
-    #########################################################################
-
     # Czyszczenie pliku wynikowego ze starych wyników (otwieranie w trybie 'w' i zamykanie)
     file = open('./results/results-'+clf_name+'.txt', 'w').close()
 
@@ -172,6 +165,32 @@ for clf_id, clf_name in enumerate(clfs):
     with open('./results/results-'+clf_name+'.txt', 'a') as file:
 
         for score_id, score_name in enumerate(metrics):
+
+            #########################################################################
+            # UŚREDNIONE WYNIKI PER DATASET
+            #########################################################################
+
+            # scores mają rozmiar: 4x20x10x5 (4 metody / 20 datasetów / 10 foldów / 5 metryk)
+            # uśredniamy po foldach (trzeci wymiar) i transponujemy
+            mean_scores_results = np.mean(scores, axis=2).T
+            # po uśrednieniu scores mają rozmiar 5x20x4 (5 metryk, 20 datasetów, 4 metody)
+
+            # etykiety kolumn i wierszy (szczegółowe dane)
+            headers = list(preprocs.keys())
+            names_column = np.expand_dims(datasets, axis=1)
+            # prezentacja szczegółowych danych dla metryki
+            scores_M = np.concatenate((names_column, mean_scores_results[score_id]), axis=1)
+            scores_M = tabulate(scores_M, headers, tablefmt="2f", floatfmt='0.3f')
+            file.write(f"Usrednionie wyniki dla metryki {score_name}:\n{scores_M}\n")
+
+
+            #########################################################################
+            # ANALIZA STATYSTYCZNA
+            #########################################################################
+
+            ###############################
+            # Test T-Studenta per dataset #
+            ###############################
 
             # dwuwymiarowe tablice przygotowane dla t-statystyki i p-wartośći, wartość alpha
             t_statistic = np.zeros((len(preprocs), len(preprocs)))
@@ -183,6 +202,14 @@ for clf_id, clf_name in enumerate(clfs):
                 for i in range(len(preprocs)):
                     for j in range(len(preprocs)):
                         t_statistic[i, j], p_value[i, j] = ttest_ind(scores_F[i], scores_F[j])
+                
+                headers = list(preprocs.keys())
+                names_column = np.expand_dims(headers, axis=1)
+                # t_statistic_table = np.concatenate((names_column, t_statistic), axis=1)
+                # t_statistic_table = tabulate(t_statistic_table, headers, floatfmt=".2f")
+                # p_value_table = np.concatenate((names_column, p_value), axis=1)
+                # p_value_table = tabulate(p_value_table, headers, floatfmt=".2f")
+                # file.write(f"\nt-statistic:\n {t_statistic_table} \n\np-value:\n {p_value_table}")
 
                 advantage = np.zeros((len(preprocs), len(preprocs)))
                 advantage[t_statistic > 0] = 1
@@ -192,36 +219,53 @@ for clf_id, clf_name in enumerate(clfs):
 
                 sign_better = significance * advantage
                 
-                headers = list(preprocs.keys())
-                names_column = np.expand_dims(headers, axis=1)
                 sign_better_table = tabulate(np.concatenate((names_column, sign_better), axis=1), headers)
-                file.write(f"\n\nStatystycznie znaczaco lepszy od: ({datasets[dataset_id]} dla {clf_name} dla metryki {score_name})\n{sign_better_table}\n")
+                file.write(f"\n\nStatystycznie znaczaco lepszy (Test T-Studenta) ({datasets[dataset_id]} przy {clf_name} dla metryki {score_name}):\n{sign_better_table}\n")
+        
+            ###########################################
+            # Test Wilcoxona dla wszystkich datasetów #
+            ###########################################
             
-            file.write(f"\n\n\n\n\n")
+            # scores mają rozmiar: 4x20x10x5 (4 metody / 20 datasetów / 10 foldów / 5 metryk)
+            # uśredniamy po foldach (trzeci wymiar) i transponujemy
+            mean_scores_W = np.mean(scores, axis=2).T
+            # otrzymaliśmy macierz uśrednionych wyników o rozmiarach 5x20x4 (5 metryk / 20 datasetów / 4 metody)
+
+            alfa = .05
+            w_statistic = np.zeros((len(preprocs), len(preprocs)))
+            p_value = np.zeros((len(preprocs), len(preprocs)))
+
+            ranks = []
+            for ms in mean_scores_W:
+                ranks.append(rankdata(ms).tolist())
+            ranks = np.array(ranks)
+
+            for i in range(len(preprocs)):
+                for j in range(len(preprocs)):
+                    w_statistic[i, j], p_value[i, j] = ranksums(ranks.T[i], ranks.T[j])
+            
+            headers = list(preprocs.keys())
+            names_column = np.expand_dims(headers, axis=1)
+            # w_statistic_table = np.concatenate((names_column, w_statistic), axis=1)
+            # w_statistic_table = tabulate(w_statistic_table, headers, floatfmt=".2f")
+            # p_value_table = np.concatenate((names_column, p_value), axis=1)
+            # p_value_table = tabulate(p_value_table, headers, floatfmt=".2f")
+            # file.write(f"\nt-statistic:\n {w_statistic_table} \n\np-value:\n {p_value_table}")
+
+            advantage = np.zeros((len(preprocs), len(preprocs)))
+            advantage[w_statistic > 0] = 1
+
+            significance = np.zeros((len(preprocs), len(preprocs)))
+            significance[p_value <= alfa] = 1
+
+            sign_better = significance * advantage
+
+            sign_better_table = tabulate(np.concatenate((names_column, sign_better), axis=1), headers)
+            file.write(f"\n\nStatystycznie znaczaco lepszy (Test Wilcoxona) (przy {clf_name} dla metryki {score_name}):\n{sign_better_table}\n")
+            
+            file.write("\n\n\n")
+            file.write("------------------------------------------------------------------------------------------------------------------------")
+            file.write("\n\n\n")
 
 
 
-    #########################################################################
-    # UŚREDNIONE WYNIKI PER DATASET
-    #########################################################################
-
-    # # scores mają rozmiar: 4x20x10x5 (4 metody / 20 datasetów / 10 foldów / 5 metryk)
-    # # uśredniamy po foldach (trzeci wymiar) i transponujemy
-    # mean_scores_stat = np.mean(scores, axis=2).T
-    # # po uśrednieniu scores mają rozmiar 5x20x4 (5 metryk, 20 datasetów, 4 metody)
-
-    # scores_per_metric = {
-    #     'Recall':       mean_scores_stat[0],
-    #     'Specificity':  mean_scores_stat[1],
-    #     'F1':           mean_scores_stat[2],
-    #     'G-mean':       mean_scores_stat[3],
-    #     'BAC':          mean_scores_stat[4],
-    # }
-
-    # # etykiety kolumn i wierszy (szczegółowe dane)
-    # headers = list(preprocs.keys())
-    # names_column = np.expand_dims(datasets, axis=1)
-    # # prezentacja szczegółowych danych dla metryki
-    # scores_M = np.concatenate((names_column, scores_per_metric[score_name]), axis=1)
-    # scores_M = tabulate(scores_M, headers, tablefmt="2f", floatfmt='0.3f')
-    # print(f"Usrednionie wyniki dla metryki {score_name}\n{scores_M}\n")

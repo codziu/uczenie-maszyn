@@ -1,60 +1,29 @@
+Usrednionie wyniki dla metryki Recall:
+                        none    ROS    SMOTE    ADASYN
+--------------------  ------  -----  -------  --------
+ecoli4                 0.583  0.800    0.833     0.850
+ecoli-0-1-4-6_vs_5     0.667  0.717    0.833     0.767
+glass2                 0.022  0.278    0.456     0.411
+glass5                 0.533  0.800    0.733     0.667
+glass6                 0.829  0.873    0.862     0.873
+glass-0-1-6_vs_2       0.072  0.200    0.367     0.283
+glass-0-1-6_vs_5       0.167  0.800    0.700     0.700
+new-thyroid1           0.848  0.914    0.924     0.914
+newthyroid2            0.886  0.933    0.933     0.933
+yeast4                 0.227  0.345    0.418     0.439
+yeast6                 0.410  0.543    0.619     0.629
+yeast-1-2-8-9_vs_7     0.200  0.244    0.289     0.256
+yeast-2_vs_4           0.653  0.778    0.816     0.822
+yeast-1_vs_7           0.311  0.278    0.444     0.489
+pima                   0.520  0.601    0.594     0.575
+segment0               0.968  0.979    0.980     0.981
+vehicle0               0.864  0.930    0.915     0.933
+page-blocks-1-3_vs_4   0.938  1.000    1.000     1.000
+vowel0                 0.907  0.926    0.970     0.952
+wisconsin              0.919  0.939    0.932     0.948
 
 
-Statystycznie znaczaco lepszy od: (ecoli4 dla KNORA-E dla metryki Recall)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (ecoli-0-1-4-6_vs_5 dla KNORA-E dla metryki Recall)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (glass2 dla KNORA-E dla metryki Recall)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (glass5 dla KNORA-E dla metryki Recall)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (glass6 dla KNORA-E dla metryki Recall)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_2 dla KNORA-E dla metryki Recall)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_5 dla KNORA-E dla metryki Recall)
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli4 przy KNORA-E dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -63,7 +32,7 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (new-thyroid1 dla KNORA-E dla metryki Recall)
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli-0-1-4-6_vs_5 przy KNORA-E dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -72,16 +41,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (newthyroid2 dla KNORA-E dla metryki Recall)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (yeast4 dla KNORA-E dla metryki Recall)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass2 przy KNORA-E dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -90,16 +50,16 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (yeast6 dla KNORA-E dla metryki Recall)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass5 przy KNORA-E dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
+ROS          1      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (yeast-1-2-8-9_vs_7 dla KNORA-E dla metryki Recall)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass6 przy KNORA-E dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -108,7 +68,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (yeast-2_vs_4 dla KNORA-E dla metryki Recall)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_2 przy KNORA-E dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -117,25 +77,52 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (yeast-1_vs_7 dla KNORA-E dla metryki Recall)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_5 przy KNORA-E dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (new-thyroid1 przy KNORA-E dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          0      0        0         0
 SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (newthyroid2 przy KNORA-E dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast4 przy KNORA-E dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
 ADASYN       1      1        0         0
 
 
-Statystycznie znaczaco lepszy od: (pima dla KNORA-E dla metryki Recall)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast6 przy KNORA-E dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
-ROS          1      0        0         1
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (segment0 dla KNORA-E dla metryki Recall)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1-2-8-9_vs_7 przy KNORA-E dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -144,7 +131,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (vehicle0 dla KNORA-E dla metryki Recall)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-2_vs_4 przy KNORA-E dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -153,25 +140,70 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (page-blocks-1-3_vs_4 dla KNORA-E dla metryki Recall)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (vowel0 dla KNORA-E dla metryki Recall)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1_vs_7 przy KNORA-E dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          0      0        0         0
 SMOTE        1      1        0         0
+ADASYN       1      1        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (pima przy KNORA-E dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (segment0 przy KNORA-E dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (vehicle0 przy KNORA-E dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (wisconsin dla KNORA-E dla metryki Recall)
+Statystycznie znaczaco lepszy (Test T-Studenta) (page-blocks-1-3_vs_4 przy KNORA-E dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (vowel0 przy KNORA-E dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      1        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (wisconsin przy KNORA-E dla metryki Recall):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test Wilcoxona) (przy KNORA-E dla metryki Recall):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -181,20 +213,44 @@ ADASYN       0      0        0         0
 
 
 
+------------------------------------------------------------------------------------------------------------------------
 
 
+Usrednionie wyniki dla metryki Specificity:
+                        none    ROS    SMOTE    ADASYN
+--------------------  ------  -----  -------  --------
+ecoli4                 0.996  0.987    0.983     0.978
+ecoli-0-1-4-6_vs_5     0.986  0.974    0.965     0.973
+glass2                 0.981  0.944    0.922     0.914
+glass5                 0.989  0.977    0.979     0.984
+glass6                 0.971  0.966    0.964     0.964
+glass-0-1-6_vs_2       0.968  0.937    0.914     0.924
+glass-0-1-6_vs_5       0.994  0.983    0.983     0.985
+new-thyroid1           0.985  0.981    0.991     0.981
+newthyroid2            0.983  0.981    0.981     0.983
+yeast4                 0.983  0.972    0.952     0.946
+yeast6                 0.993  0.982    0.968     0.962
+yeast-1-2-8-9_vs_7     0.993  0.972    0.929     0.921
+yeast-2_vs_4           0.979  0.960    0.954     0.948
+yeast-1_vs_7           0.977  0.932    0.904     0.885
+pima                   0.804  0.759    0.769     0.731
+segment0               0.997  0.996    0.996     0.996
+vehicle0               0.968  0.951    0.948     0.952
+page-blocks-1-3_vs_4   0.997  0.995    0.995     0.995
+vowel0                 0.994  0.982    0.983     0.986
+wisconsin              0.971  0.968    0.968     0.968
 
 
-Statystycznie znaczaco lepszy od: (ecoli4 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli4 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
-none         0      0        0         1
+none         0      1        1         1
 ROS          0      0        0         0
 SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (ecoli-0-1-4-6_vs_5 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli-0-1-4-6_vs_5 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        1         0
@@ -203,7 +259,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (glass2 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass2 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      1        1         1
@@ -212,7 +268,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (glass5 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass5 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -221,7 +277,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (glass6 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass6 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -230,7 +286,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_2 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_2 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        1         1
@@ -239,7 +295,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_5 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_5 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -248,7 +304,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (new-thyroid1 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (new-thyroid1 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -257,7 +313,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (newthyroid2 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (newthyroid2 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -266,7 +322,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (yeast4 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast4 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      1        1         1
@@ -275,7 +331,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (yeast6 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast6 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      1        1         1
@@ -284,7 +340,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (yeast-1-2-8-9_vs_7 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1-2-8-9_vs_7 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      1        1         1
@@ -293,7 +349,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (yeast-2_vs_4 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-2_vs_4 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      1        1         1
@@ -302,16 +358,16 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (yeast-1_vs_7 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1_vs_7 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      1        1         1
-ROS          0      0        0         1
+ROS          0      0        1         1
 SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (pima dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (pima przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      1        0         1
@@ -320,7 +376,7 @@ SMOTE        0      0        0         1
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (segment0 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (segment0 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -329,25 +385,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (vehicle0 dla KNORA-E dla metryki Specificity)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      1        1         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (page-blocks-1-3_vs_4 dla KNORA-E dla metryki Specificity)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (vowel0 dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (vehicle0 przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      1        1         1
@@ -356,7 +394,34 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (wisconsin dla KNORA-E dla metryki Specificity)
+Statystycznie znaczaco lepszy (Test T-Studenta) (page-blocks-1-3_vs_4 przy KNORA-E dla metryki Specificity):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (vowel0 przy KNORA-E dla metryki Specificity):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      1        1         1
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (wisconsin przy KNORA-E dla metryki Specificity):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test Wilcoxona) (przy KNORA-E dla metryki Specificity):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -366,11 +431,35 @@ ADASYN       0      0        0         0
 
 
 
+------------------------------------------------------------------------------------------------------------------------
 
 
+Usrednionie wyniki dla metryki F1:
+                        none    ROS    SMOTE    ADASYN
+--------------------  ------  -----  -------  --------
+ecoli4                 0.666  0.790    0.788     0.780
+ecoli-0-1-4-6_vs_5     0.701  0.708    0.738     0.729
+glass2                 0.033  0.260    0.360     0.319
+glass5                 0.542  0.696    0.645     0.629
+glass6                 0.820  0.833    0.823     0.829
+glass-0-1-6_vs_2       0.083  0.176    0.291     0.227
+glass-0-1-6_vs_5       0.156  0.716    0.667     0.667
+new-thyroid1           0.875  0.910    0.935     0.910
+newthyroid2            0.901  0.921    0.921     0.925
+yeast4                 0.260  0.323    0.303     0.299
+yeast6                 0.450  0.475    0.428     0.388
+yeast-1-2-8-9_vs_7     0.269  0.229    0.164     0.142
+yeast-2_vs_4           0.705  0.726    0.731     0.719
+yeast-1_vs_7           0.366  0.245    0.305     0.311
+pima                   0.550  0.585    0.587     0.552
+segment0               0.975  0.979    0.978     0.979
+vehicle0               0.878  0.890    0.879     0.893
+page-blocks-1-3_vs_4   0.943  0.967    0.967     0.968
+vowel0                 0.922  0.882    0.908     0.910
+wisconsin              0.931  0.940    0.935     0.944
 
 
-Statystycznie znaczaco lepszy od: (ecoli4 dla KNORA-E dla metryki F1)
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli4 przy KNORA-E dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -379,7 +468,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (ecoli-0-1-4-6_vs_5 dla KNORA-E dla metryki F1)
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli-0-1-4-6_vs_5 przy KNORA-E dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -388,7 +477,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (glass2 dla KNORA-E dla metryki F1)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass2 przy KNORA-E dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -397,7 +486,7 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (glass5 dla KNORA-E dla metryki F1)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass5 przy KNORA-E dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -406,7 +495,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (glass6 dla KNORA-E dla metryki F1)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass6 przy KNORA-E dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -415,16 +504,16 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_2 dla KNORA-E dla metryki F1)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_2 przy KNORA-E dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          0      0        0         0
 SMOTE        1      0        0         0
-ADASYN       1      0        0         0
+ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_5 dla KNORA-E dla metryki F1)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_5 przy KNORA-E dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -433,7 +522,16 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (new-thyroid1 dla KNORA-E dla metryki F1)
+Statystycznie znaczaco lepszy (Test T-Studenta) (new-thyroid1 przy KNORA-E dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (newthyroid2 przy KNORA-E dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -442,16 +540,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (newthyroid2 dla KNORA-E dla metryki F1)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (yeast4 dla KNORA-E dla metryki F1)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast4 przy KNORA-E dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -460,237 +549,25 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (yeast6 dla KNORA-E dla metryki F1)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (yeast-1-2-8-9_vs_7 dla KNORA-E dla metryki F1)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        1         1
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (yeast-2_vs_4 dla KNORA-E dla metryki F1)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (yeast-1_vs_7 dla KNORA-E dla metryki F1)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (pima dla KNORA-E dla metryki F1)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast6 przy KNORA-E dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          0      0        0         1
-SMOTE        0      0        0         1
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (segment0 dla KNORA-E dla metryki F1)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
 SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (vehicle0 dla KNORA-E dla metryki F1)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1-2-8-9_vs_7 przy KNORA-E dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (page-blocks-1-3_vs_4 dla KNORA-E dla metryki F1)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (vowel0 dla KNORA-E dla metryki F1)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (wisconsin dla KNORA-E dla metryki F1)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-
-
-
-
-
-Statystycznie znaczaco lepszy od: (ecoli4 dla KNORA-E dla metryki G-mean)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (ecoli-0-1-4-6_vs_5 dla KNORA-E dla metryki G-mean)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (glass2 dla KNORA-E dla metryki G-mean)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (glass5 dla KNORA-E dla metryki G-mean)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (glass6 dla KNORA-E dla metryki G-mean)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_2 dla KNORA-E dla metryki G-mean)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_5 dla KNORA-E dla metryki G-mean)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (new-thyroid1 dla KNORA-E dla metryki G-mean)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (newthyroid2 dla KNORA-E dla metryki G-mean)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (yeast4 dla KNORA-E dla metryki G-mean)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          1      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (yeast6 dla KNORA-E dla metryki G-mean)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (yeast-1-2-8-9_vs_7 dla KNORA-E dla metryki G-mean)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (yeast-2_vs_4 dla KNORA-E dla metryki G-mean)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (yeast-1_vs_7 dla KNORA-E dla metryki G-mean)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      1        0         0
-
-
-Statystycznie znaczaco lepszy od: (pima dla KNORA-E dla metryki G-mean)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
+none         0      0        0         1
 ROS          0      0        0         1
-SMOTE        0      0        0         1
+SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (segment0 dla KNORA-E dla metryki G-mean)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-2_vs_4 przy KNORA-E dla metryki F1):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -699,7 +576,108 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (vehicle0 dla KNORA-E dla metryki G-mean)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1_vs_7 przy KNORA-E dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      1        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (pima przy KNORA-E dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (segment0 przy KNORA-E dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (vehicle0 przy KNORA-E dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (page-blocks-1-3_vs_4 przy KNORA-E dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (vowel0 przy KNORA-E dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      1        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (wisconsin przy KNORA-E dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test Wilcoxona) (przy KNORA-E dla metryki F1):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+Usrednionie wyniki dla metryki G-mean:
+                        none    ROS    SMOTE    ADASYN
+--------------------  ------  -----  -------  --------
+ecoli4                 0.736  0.879    0.894     0.904
+ecoli-0-1-4-6_vs_5     0.774  0.829    0.891     0.856
+glass2                 0.038  0.407    0.562     0.511
+glass5                 0.640  0.844    0.779     0.743
+glass6                 0.892  0.914    0.907     0.913
+glass-0-1-6_vs_2       0.117  0.307    0.464     0.383
+glass-0-1-6_vs_5       0.180  0.820    0.763     0.763
+new-thyroid1           0.909  0.945    0.955     0.946
+newthyroid2            0.930  0.955    0.956     0.957
+yeast4                 0.464  0.576    0.625     0.639
+yeast6                 0.598  0.722    0.767     0.767
+yeast-1-2-8-9_vs_7     0.388  0.457    0.467     0.457
+yeast-2_vs_4           0.795  0.861    0.881     0.881
+yeast-1_vs_7           0.534  0.473    0.619     0.644
+pima                   0.644  0.673    0.675     0.647
+segment0               0.982  0.987    0.988     0.988
+vehicle0               0.914  0.940    0.931     0.942
+page-blocks-1-3_vs_4   0.966  0.998    0.998     0.998
+vowel0                 0.949  0.953    0.976     0.968
+wisconsin              0.944  0.953    0.949     0.958
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli4 przy KNORA-E dla metryki G-mean):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -708,7 +686,7 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (page-blocks-1-3_vs_4 dla KNORA-E dla metryki G-mean)
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli-0-1-4-6_vs_5 przy KNORA-E dla metryki G-mean):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -717,16 +695,169 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (vowel0 dla KNORA-E dla metryki G-mean)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass2 przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass5 przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass6 przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_2 przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_5 przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (new-thyroid1 przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (newthyroid2 przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast4 przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      1        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast6 przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1-2-8-9_vs_7 przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-2_vs_4 przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1_vs_7 przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      1        0         0
+ADASYN       1      1        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (pima przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (segment0 przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (vehicle0 przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (page-blocks-1-3_vs_4 przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (vowel0 przy KNORA-E dla metryki G-mean):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          0      0        0         0
 SMOTE        1      1        0         0
-ADASYN       1      1        0         0
+ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (wisconsin dla KNORA-E dla metryki G-mean)
+Statystycznie znaczaco lepszy (Test T-Studenta) (wisconsin przy KNORA-E dla metryki G-mean):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test Wilcoxona) (przy KNORA-E dla metryki G-mean):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -736,29 +867,35 @@ ADASYN       0      0        0         0
 
 
 
+------------------------------------------------------------------------------------------------------------------------
 
 
+Usrednionie wyniki dla metryki BAC:
+                        none    ROS    SMOTE    ADASYN
+--------------------  ------  -----  -------  --------
+ecoli4                 0.790  0.894    0.908     0.914
+ecoli-0-1-4-6_vs_5     0.826  0.846    0.899     0.870
+glass2                 0.502  0.611    0.689     0.662
+glass5                 0.761  0.889    0.856     0.825
+glass6                 0.900  0.920    0.913     0.919
+glass-0-1-6_vs_2       0.520  0.569    0.640     0.604
+glass-0-1-6_vs_5       0.580  0.891    0.841     0.842
+new-thyroid1           0.916  0.948    0.957     0.948
+newthyroid2            0.935  0.957    0.957     0.958
+yeast4                 0.605  0.659    0.685     0.693
+yeast6                 0.701  0.762    0.794     0.795
+yeast-1-2-8-9_vs_7     0.596  0.608    0.609     0.588
+yeast-2_vs_4           0.816  0.869    0.885     0.885
+yeast-1_vs_7           0.644  0.605    0.674     0.687
+pima                   0.662  0.680    0.682     0.653
+segment0               0.982  0.988    0.988     0.988
+vehicle0               0.916  0.940    0.932     0.942
+page-blocks-1-3_vs_4   0.967  0.998    0.998     0.998
+vowel0                 0.951  0.954    0.976     0.969
+wisconsin              0.945  0.954    0.950     0.958
 
 
-Statystycznie znaczaco lepszy od: (ecoli4 dla KNORA-E dla metryki BAC)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (ecoli-0-1-4-6_vs_5 dla KNORA-E dla metryki BAC)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (glass2 dla KNORA-E dla metryki BAC)
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli4 przy KNORA-E dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -767,7 +904,7 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (glass5 dla KNORA-E dla metryki BAC)
+Statystycznie znaczaco lepszy (Test T-Studenta) (ecoli-0-1-4-6_vs_5 przy KNORA-E dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -776,25 +913,7 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (glass6 dla KNORA-E dla metryki BAC)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_2 dla KNORA-E dla metryki BAC)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        1      0        0         0
-ADASYN       1      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (glass-0-1-6_vs_5 dla KNORA-E dla metryki BAC)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass2 przy KNORA-E dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -803,7 +922,16 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (new-thyroid1 dla KNORA-E dla metryki BAC)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass5 przy KNORA-E dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass6 przy KNORA-E dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -812,16 +940,16 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (newthyroid2 dla KNORA-E dla metryki BAC)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_2 przy KNORA-E dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (yeast4 dla KNORA-E dla metryki BAC)
+Statystycznie znaczaco lepszy (Test T-Studenta) (glass-0-1-6_vs_5 przy KNORA-E dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -830,7 +958,34 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (yeast6 dla KNORA-E dla metryki BAC)
+Statystycznie znaczaco lepszy (Test T-Studenta) (new-thyroid1 przy KNORA-E dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (newthyroid2 przy KNORA-E dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast4 przy KNORA-E dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        1      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast6 przy KNORA-E dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -839,7 +994,7 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (yeast-1-2-8-9_vs_7 dla KNORA-E dla metryki BAC)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1-2-8-9_vs_7 przy KNORA-E dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -848,34 +1003,25 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (yeast-2_vs_4 dla KNORA-E dla metryki BAC)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-2_vs_4 przy KNORA-E dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
-ROS          0      0        0         0
+ROS          1      0        0         0
 SMOTE        1      0        0         0
-ADASYN       0      0        0         0
+ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (yeast-1_vs_7 dla KNORA-E dla metryki BAC)
+Statystycznie znaczaco lepszy (Test T-Studenta) (yeast-1_vs_7 przy KNORA-E dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          0      0        0         0
-SMOTE        0      0        0         0
+SMOTE        0      1        0         0
 ADASYN       0      1        0         0
 
 
-Statystycznie znaczaco lepszy od: (pima dla KNORA-E dla metryki BAC)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         1
-SMOTE        0      0        0         1
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (segment0 dla KNORA-E dla metryki BAC)
+Statystycznie znaczaco lepszy (Test T-Studenta) (pima przy KNORA-E dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -884,7 +1030,25 @@ SMOTE        0      0        0         0
 ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (vehicle0 dla KNORA-E dla metryki BAC)
+Statystycznie znaczaco lepszy (Test T-Studenta) (segment0 przy KNORA-E dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (vehicle0 przy KNORA-E dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          1      0        0         0
+SMOTE        0      0        0         0
+ADASYN       1      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test T-Studenta) (page-blocks-1-3_vs_4 przy KNORA-E dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -893,25 +1057,25 @@ SMOTE        1      0        0         0
 ADASYN       1      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (page-blocks-1-3_vs_4 dla KNORA-E dla metryki BAC)
-          none    ROS    SMOTE    ADASYN
-------  ------  -----  -------  --------
-none         0      0        0         0
-ROS          0      0        0         0
-SMOTE        0      0        0         0
-ADASYN       0      0        0         0
-
-
-Statystycznie znaczaco lepszy od: (vowel0 dla KNORA-E dla metryki BAC)
+Statystycznie znaczaco lepszy (Test T-Studenta) (vowel0 przy KNORA-E dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
 ROS          0      0        0         0
 SMOTE        1      1        0         0
-ADASYN       1      1        0         0
+ADASYN       0      0        0         0
 
 
-Statystycznie znaczaco lepszy od: (wisconsin dla KNORA-E dla metryki BAC)
+Statystycznie znaczaco lepszy (Test T-Studenta) (wisconsin przy KNORA-E dla metryki BAC):
+          none    ROS    SMOTE    ADASYN
+------  ------  -----  -------  --------
+none         0      0        0         0
+ROS          0      0        0         0
+SMOTE        0      0        0         0
+ADASYN       0      0        0         0
+
+
+Statystycznie znaczaco lepszy (Test Wilcoxona) (przy KNORA-E dla metryki BAC):
           none    ROS    SMOTE    ADASYN
 ------  ------  -----  -------  --------
 none         0      0        0         0
@@ -921,5 +1085,6 @@ ADASYN       0      0        0         0
 
 
 
+------------------------------------------------------------------------------------------------------------------------
 
 
